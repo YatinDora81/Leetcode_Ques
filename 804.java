@@ -1,5 +1,6 @@
 // 804. Unique Morse Code Words
 
+/* 
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
         String []arr={".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
@@ -15,3 +16,4 @@ class Solution {
         return set.size();
     }
 }
+*/
