@@ -1,4 +1,5 @@
 // 645. Set Mismatch
+/*
 class Solution {
     public int[] findErrorNums(int[] nums) {
         int ans[]={-1,-1};
@@ -12,3 +13,4 @@ class Solution {
         return ans;
     }
 }
+*/
