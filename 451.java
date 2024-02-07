@@ -1,4 +1,4 @@
-// 451. Sort Characters By Frequency
+// 451. Sort Characters By Frequency.
 
 import java.util.*;
 class Solution {
