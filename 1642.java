@@ -30,27 +30,27 @@ class Solution {
         // return tell(arr,bricks,ladders);
     }
 
-    private static int tell(int[] arr, int bricks, int ladders) {
-        //video
-        int n=arr.length;
-        PriorityQueue<Integer> pq=new PriorityQueue<>();
+    // private static int tell(int[] arr, int bricks, int ladders) {
+    //     //video
+    //     int n=arr.length;
+    //     PriorityQueue<Integer> pq=new PriorityQueue<>();
 
-        int brickused=0;
+    //     int brickused=0;
 
-        for(int i=1;i<n;i++){
+    //     for(int i=1;i<n;i++){
 
-            int diff=arr[i]-arr[i-1];
+    //         int diff=arr[i]-arr[i-1];
 
-            if(diff>0){
-                pq.add(diff);
-                if(pq.size()>ladders){
-                    brickused+=pq.remove();
-                }
-                if(brickused>bricks){
-                    return i-1;
-                }
-            }
-        }
-        return n-1;
-    }
+    //         if(diff>0){
+    //             pq.add(diff);
+    //             if(pq.size()>ladders){
+    //                 brickused+=pq.remove();
+    //             }
+    //             if(brickused>bricks){
+    //                 return i-1;
+    //             }
+    //         }
+    //     }
+    //     return n-1;
+    // }
 }
