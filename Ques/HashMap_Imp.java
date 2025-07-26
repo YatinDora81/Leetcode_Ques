@@ -125,6 +125,7 @@ public class HashMap_Imp {
                 if (buckets[bi].get(i).key.equals(key))
                     return i;
             }
+            
             return -1;
         }
 
